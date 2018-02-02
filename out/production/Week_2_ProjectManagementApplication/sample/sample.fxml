@@ -1,0 +1,24 @@
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.layout.GridPane?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.text.Text?>
+<GridPane fx:controller="sample.Controller"
+          xmlns:fx="http://javafx.com/fxml" alignment="center" hgap="10" vgap="10">
+
+
+    <Button text="Generate Employee"
+            fx:id="clickMeButton"
+            GridPane.rowIndex="0"></Button>
+
+
+    <Text text="Total Hours for Task:"
+          fx:id="taskHours"
+          GridPane.rowIndex="2"></Text>
+
+    <Text text="Employee List:"
+          fx:id="employeeListView"
+          GridPane.rowIndex="3"></Text
+
+</GridPane>
